@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-layouts",
+  "description": "Tailwind CSS Layouts",
+  "version": "1.0.0",
+  "homepage": "https://cruip.com",
+  "author": "Pasquale Vitiello",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node compile-css.js --watch",
+    "build": "node compile-css.js"
+  },
+  "devDependencies": {
+    "glob": "^10.2.2",
+    "tailwindcss": "^3.3.1"
+  }
+}

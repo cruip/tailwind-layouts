@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Twitter Layout</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="./style.twitter.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen bg-white">
+
+    <div class="mx-auto flex justify-center">
+
+        <!-- Left sidebar -->
+        <header class="hidden sm:block sticky top-0 h-screen overflow-y-auto w-20 xl:w-[17.5rem] shrink-0 border-r border-slate-300">
+            <div class="p-4">
+                <div class="space-y-4 [&>*]:bg-slate-200 [&>*]:h-3 [&>*]:w-full [&>*]:rounded">
+                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="flex-1 max-w-[37.5rem] lg:max-w-none lg:flex-initial flex justify-between">
+            <main class="flex-1 lg:w-[37.5rem] sm:border-r border-slate-300">
+                <!-- Sticky top header -->
+                <div class="w-full sticky top-0 border-b border-slate-300">
+                    <div class="bg-white bg-opacity-80 backdrop-blur-md p-4 h-12 md:h-16"></div>
+                </div>
+                <!-- Posts -->
+                <div class="divide-y divide-slate-300">
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full p-4">
+                        <div class="bg-sky-50 border border-sky-200 h-40 rounded-lg"></div>
+                    </div>
+                </div>
+                <!-- Sticky bottom mobile navigation -->
+                <div class="sm:hidden w-full sticky bottom-0 border-t border-slate-300">
+                    <div class="bg-white bg-opacity-80 backdrop-blur-md p-4 h-12 md:h-16"></div>
+                </div>
+            </main>
+
+            <!-- Right sidebar -->
+            <aside class="hidden lg:block sticky top-0 h-screen overflow-y-auto w-80 xl:w-96 shrink-0 p-4">
+                <div class="space-y-4">
+                    <div class="w-full">
+                        <div class="bg-amber-50 border border-amber-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full">
+                        <div class="bg-amber-50 border border-amber-200 h-40 rounded-lg"></div>
+                    </div>
+                    <div class="w-full">
+                        <div class="bg-amber-50 border border-amber-200 h-40 rounded-lg"></div>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
